@@ -22,10 +22,7 @@ public class SumCalculatorTests {
 
     @Test
     public void testThatSumWithOneWorksCorrect() {
-        //When
         int actual = sumCalculator.sum(1);
-
-        //Then
         int expected = 1;
         Assertions.assertEquals(expected, actual);
     }
